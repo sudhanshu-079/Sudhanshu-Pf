@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudhanshu Kumar Suman</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+            text-align: center;
+        }
+        header {
+            background: linear-gradient(45deg, #ff416c, #ff4b2b);
+            color: white;
+            padding: 30px;
+            font-size: 1.5em;
+        }
+        nav {
+            background: #333;
+            padding: 10px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        section {
+            padding: 40px;
+            margin: 20px auto;
+            width: 80%;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+        }
+        footer {
+            background: #333;
+            color: white;
+            padding: 15px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            color: white;
+            background: #ff4b2b;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .button:hover {
+            background: #ff416c;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sudhanshu Kumar Suman</h1>
+        <p>Web Developer | AI Enthusiast | ML Learner</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi, I'm Sudhanshu Kumar Suman, a passionate web developer and AI enthusiast. I love building creative and interactive web applications.</p>
+        <a href="#projects" class="button">View My Work</a>
+    </section>
+    
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>Python & Machine Learning</li>
+            <li>React & Node.js</li>
+            <li>Data Analysis & AI Integration</li>
+            <li>Responsive Web Design</li>
+        </ul>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li><strong>AI-driven Farmers’ Disease Diagnostic Portal</strong> - A platform for farmers to diagnose plant diseases using AI.</li>
+            <li><strong>Weather-based Clothes Recommendation Website</strong> - Suggests outfits based on weather conditions.</li>
+            <li><strong>Portfolio Website</strong> - My own personal website built using modern web technologies.</li>
+        </ul>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: sudhanshu@example.com</p>
+        <p>LinkedIn: <a href="#">linkedin.com/in/sudhanshu</a></p>
+        <p>GitHub: <a href="#">github.com/sudhanshu</a></p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Sudhanshu Kumar Suman. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
